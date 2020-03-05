@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'BD Geminis';
+	src: url('bd_geminis-webfont.woff') format ('woff'),
+		url('bd_geminis.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'SWTxT';
+	src: url('SWTxt-webfont.woff')
+	format ('woff'),
+		url('SWTxt.ttf')
+		format('truetype');
+}
+h1 {
+
+	text-align: center;
+	font-family: "BD Geminis", "serif";
+	font-size: 42pt;
+	color: whitesmoke;
+	text-shadow: 4px 5px 4px grey;
+}
+
+
+body {
+
+	background-color: #10101f;
+}
+
+p {
+	text-align: center;
+	font-family: "SWTxt", sans-serif;
+	font-weight: 600;
+	font-size: 12pt;
+	color: white;
+	padding-bottom: 20pt;
+}
+
+button {
+	margin-bottom: 8pt;
+}
